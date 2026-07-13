@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "model": "Linear Regression",
+      "mae": 0.27699073849694156,
+      "rmse": 0.36661281655469796,
+      "r2": 0.9126061702683262
+    },
+    {
+      "model": "Random Forest",
+      "mae": 0.2287460515928397,
+      "rmse": 0.30175716147999676,
+      "r2": 0.9407919639327569
+    },
+    {
+      "model": "Gradient Boosting",
+      "mae": 0.22898809196908124,
+      "rmse": 0.2982655226042887,
+      "r2": 0.9421542316776268
+    }
+  ],
+  "best_model": "Gradient Boosting",
+  "cv_r2_mean": 0.939704735201875,
+  "cv_r2_std": 0.0013450923766993787,
+  "numeric_features": [
+    "rainfall_mm",
+    "avg_temp_c",
+    "humidity_pct",
+    "sunlight_hours",
+    "soil_ph",
+    "soil_nitrogen_kg_ha",
+    "soil_phosphorus_kg_ha",
+    "soil_potassium_kg_ha",
+    "soil_organic_matter_pct",
+    "fertilizer_kg_ha",
+    "irrigation_mm",
+    "pesticide_l_ha",
+    "ndvi",
+    "planting_density_k_per_ha",
+    "days_to_harvest"
+  ],
+  "categorical_features": [
+    "crop",
+    "region",
+    "soil_type"
+  ]
+}
